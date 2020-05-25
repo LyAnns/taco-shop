@@ -7,7 +7,7 @@ class NewOrderEntry extends Component {
         super(props);
         this.state = {
             customerName: '',
-            selectedTacoNumber: -1
+            selectedTacoNumber: 0
         }
     }
 

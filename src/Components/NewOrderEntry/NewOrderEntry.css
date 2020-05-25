@@ -1,0 +1,35 @@
+.NewOrderEntry {
+    color: black;
+    background-color: chartreuse;
+    height: 140px;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: stretch;
+    padding: 20px;
+}
+
+.NewOrderEntryLabel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+}
+
+
+.NewOrderEntryForm {
+    color: black;
+    background-color: chartreuse;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
